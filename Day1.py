@@ -5,7 +5,7 @@ def Solve1() -> None:
     # work with user input...
     while True:
         inp = input()
-        if inp == '':
+        if inp == "":
             if cur_sum == 0:
                 # user has not input anything before, this is the end
                 break
@@ -26,7 +26,7 @@ def Solve2() -> None:
     # work with user input...
     while True:
         inp = input()
-        if inp == '':
+        if inp == "":
             if cur_sum == 0:
                 # user has not input anything before, this is the end
                 break
@@ -38,7 +38,7 @@ def Solve2() -> None:
     sums = sorted(sums)
     l = len(sums)
 
-    print(sum(sums[l-3:l]))
+    print(sum(sums[l - 3 : l]))
 
 
 # Solve1()
